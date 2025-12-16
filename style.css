@@ -1,0 +1,7 @@
+ 
+
+/* header title style start */
+header{
+   display: flex;
+    justify-content:space-between;
+}

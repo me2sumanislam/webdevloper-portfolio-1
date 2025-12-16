@@ -13,3 +13,18 @@
    display: flex;
     justify-content:space-between;
 }
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+     
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+.header-title-color{
+    color:#FD6E0A;
+}

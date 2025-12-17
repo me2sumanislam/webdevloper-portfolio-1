@@ -11,6 +11,11 @@
     color:#FD6E0A;
 }
 
+.dark-1{
+   color: #1E1E1E;
+}
+
+
 .dark-2{
     color:#474747 ;
 }
@@ -25,7 +30,14 @@
     border-radius: 5px;
 
 }
+ /* header style */
 
+ .header{
+   background-image: url('images/developer.png'),url('images/header_bg.png');
+   background-repeat: no-repeat;
+   background-position: top  left, bottom right;
+    
+ }
 
 
  /* nav styles */
@@ -58,4 +70,33 @@
  nav ul li a {
     text-decoration: none;
     font-size: 20px;
+ }
+
+ /* banner styles */
+
+ .banner{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0 35px 0  200px;
+ }
+
+ .banner-content{
+   width: 585px;
+ }
+
+
+ .banner-greeting{
+   font-size: 45px;
+    font-weight:600px;
+ 
+ }
+
+ .banner-title{
+    font-weight: bold;
+    font-size: 85px;
+ }
+
+ .banner-profil-pic{
+   width: 584px;
  }
